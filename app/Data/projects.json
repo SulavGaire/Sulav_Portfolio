@@ -1,0 +1,26 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "name": "Project 1",
+            "category": "Web Development",
+            "description": "This is a description of Project 1.",
+            "links": {
+                "github": "https://github.com/username/project1",
+                "live": "https://www.project1.com"
+            },
+            "technologies": ["HTML", "CSS", "JavaScript"]
+        },
+        {
+            "id": 2,
+            "name": "Project 2",
+            "category": "Mobile Development",
+            "description": "This is a description of Project 2.",
+            "links": {
+                "github": "https://github.com/username/project2",
+                "live": "https://www.project2.com"
+            },
+            "technologies": ["React Native", "Redux"]
+        }
+    ]
+}
