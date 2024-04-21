@@ -1,5 +1,23 @@
+import ProjectsComponent from "@/components/card/projectsComponent";
+import projectsData from "@/app/Data/projects.json";
+import Profileimage from "@/components/profileimage";
+
 export default function Projects() {
   return (
-    <div>Projects</div>
+    <>
+    <Profileimage/>
+      <p className="font-outfit font-bold text-[32px] tracking-[-0.5px] leading-[44.6px] text-heading py-4">Projects</p>
+      {projectsData.projects.map(project => (
+        <ProjectsComponent
+          id={project.id} // Assuming each project has a unique ID
+          title={project.name}
+          category={project.category}
+          description={project.description}
+          year={project.date}
+          links={project.links}
+          technologies={project.technologies}
+        />
+      ))}
+    </>
   )
 }

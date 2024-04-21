@@ -1,6 +1,11 @@
+import Profileimage from "@/components/profileimage";
+
 export default function Contact() {
   return (
-    <div>Contact</div>
+    <>
+    <Profileimage/>
+    <div>Contact Page</div>
+    </>
   )
 }
 

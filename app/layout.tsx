@@ -1,10 +1,6 @@
 import type { Metadata } from "next";
-import { Roboto_Mono } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/footer";
-
-
-const inter = Roboto_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Home Page",
@@ -17,11 +13,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="bg-background">
-      <main>
-      <body className={inter.className}>{children}</body>
-      <Footer/>
-      </main>
+    <html lang="en">
+      <body>
+        <div className="flex justify-center mx-4">
+          <div className="max-w-screen-sm w-auto ">
+            {children}
+            <Footer />
+          </div>
+        </div>
+      </body>
     </html>
   );
 }

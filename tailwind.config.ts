@@ -18,11 +18,20 @@ const config = {
       },
     },
     extend: {
+      fontFamily: {
+        'outfit': ['Outfit', 'sans-serif'],
+        'sans': ['Open Sans', 'sans-serif'],
+        'mono': ['Roboto Mono', 'monospace'],
+      },
       colors: {
+        heading: "#252525",
+        paragraph:"#333333",
+        link:"#4B4B4B",
+        cardBackground:"#F5F5F5",
+        background: "#FAFAF8",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
-        background: "#FAFAF8",
         foreground: "hsl(var(--foreground))",
         primary: {
           DEFAULT: "hsl(var(--primary))",

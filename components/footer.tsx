@@ -1,31 +1,32 @@
-'use client';
+"use client";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 
+const navLinks = [
+  { href: "/", label: "Home" },
+  { href: "/projects", label: "Projects" },
+  { href: "/thoughts", label: "Thoughts" },
+  { href: "/contact", label: "Contact" },
+];
+
 export default function Footer() {
-    const pathname = usePathname();
+  const pathname = usePathname();
   return (
-    <div>
-        <div className="border-2 border-t-black py-4 m-5 ">
-        <nav>
-      <ul className="flex flex-row">
-        <li>
-          <Link className={`link ${pathname === '/' ? 'font-bold' : ''}`} href="/">
-            Home
-          </Link>
-        </li>
-        <li>
-          <Link
-            className={`link ${pathname === '/projects' ? 'font-bold' : ''}`}
-            href="/projects"
-          >
-            About
-          </Link>
-        </li>
-      </ul>
-    </nav>
+      <div className="border-t-[1px] border-black py-4 mb-5 font-medium font-mono text-xs text-paragraph flex justify-between">
+      <p>© 2024 - Sulav Gaire</p>
+        <nav className="flex flex-row">
+        {navLinks.map(({href, label},index) => (
+            <div key={index} className="mr-2">
+              <Link
+                className={`link ${pathname === href ? "font-bold" : ""}`}
+                href={href}
+              >
+                {label}
+              </Link>
+              {index < navLinks.length - 1 && <span className="mx-2">/</span>}
+            </div>
+        ))}
+        </nav>
         </div>
-         
-    </div>
-  )
+  );
 }
