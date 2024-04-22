@@ -1,0 +1,88 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "name": "E-निर्वाचन",
+            "category": "Web Development",
+            "description": "Major Project -Biometric Voting System. This project is developed using ReactJs and Django as Server Side and mongodb as database",
+            "date": "2023",
+            "links": {
+                "github": "https://github.com/SulavGaire/e-Nirwachan"
+            },
+            "technologies": ["ReactJs", "Multi-Step-Form","Tailwind","Django", "Mongodb","Face Recognition","Fingerprint Recognition"]
+        },
+        {
+            "id": 2,
+            "name": "Project 2",
+            "category": "Mobile Development",
+            "description": "This is a description of Project 2.",
+            "date": "2022-02-01",
+            "links": {
+                "github": "https://github.com/username/project2",
+                "live": "https://www.project2.com"
+            },
+            "technologies": ["React Native", "Redux"]
+        }
+    ],
+    
+    "Social":[{
+        "id":0,
+        "name":"Gmail",
+        "link":"mailto:sulavgaire@gmail.com",
+        "handel":"sulavgaire@gmail.com"
+    },
+    {
+        "id":4,
+        "name":"Github",
+        "link":"https://github.com/SulavGaire",
+        "handel":"@SulavGaire"
+    },
+    {
+        "id":3,
+        "name":"Linkedin",
+        "link":"https://www.linkedin.com/in/sulav-gaire/",
+        "handel":"@sulav-gaire"
+    },
+    {
+        "id":1,
+        "name":"Facebook",
+        "link":"https://www.facebook.com/sulav.gaire/",
+        "handel":"@sulav.gaire"
+    },
+    {
+        "id":2,
+        "name":"Instagram",
+        "link":"https://www.instagram.com/sulav_gaire/",
+        "handel":"@sulav_gaire"
+    },{
+        "id":6,
+        "name":"Twitter",
+        "link":"https://twitter.com/SulavGaire",
+        "handel":"@SulavGaire"
+    },
+    {
+        "id":5,
+        "name":"Medium",
+        "link":"https://medium.com/@sulavgaire",
+        "handel":"@sulavgaire"
+    }
+    ],
+
+    "Thoughts":[
+        {
+            "id":2,
+            "title":"Kuch likha karo",
+            "link":"https://sulavgaire.notion.site/Basics-of-LoRa-1a9e0173dddb449c88e916fc59f5e7f3"
+        },
+        {
+            "id":1,
+            "title":"Weather Forecasting using LoRa and Machine Learning at High Altitude",
+            "link":"https://medium.com/@sulavgaire/weather-forecasting-using-lora-and-machine-learning-at-high-altitude-c1c1464c367"
+        },
+        {
+            "id":0,
+            "title":"Basics of LoRa",
+            "link":"https://sulavgaire.notion.site/Basics-of-LoRa-1a9e0173dddb449c88e916fc59f5e7f3"
+        }
+    ]
+}

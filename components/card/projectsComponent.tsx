@@ -15,7 +15,7 @@ interface Project {
 
 export default function ProjectsComponent(props: Project) {
   return (
-    <div className="bg-cardBackground rounded-2xl p-4 my-4">
+    <div key={props.id} className="bg-cardBackground rounded-2xl p-4 my-4">
       <div className="flex justify-between items-center pb-2">
         <p className="font-outfit font-bold text-[24px] leading-[33.6px] text-heading">
           {props.title}

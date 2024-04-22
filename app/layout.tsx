@@ -18,7 +18,7 @@ export default function RootLayout({
         <div className="flex justify-center mx-4">
           <div className="max-w-screen-sm w-auto ">
             {children}
-            <Footer />
+            <Footer/>
           </div>
         </div>
       </body>
