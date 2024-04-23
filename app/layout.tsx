@@ -5,6 +5,7 @@ import Footer from "@/components/footer";
 export const metadata: Metadata = {
   title: "Home Page",
   description: "This is the home page",
+  
 };
 
 export default function RootLayout({

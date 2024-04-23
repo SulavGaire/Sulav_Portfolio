@@ -17,8 +17,11 @@ export default function ProjectsComponent(props: Project) {
   return (
     <div key={props.id} className="bg-cardBackground rounded-2xl p-4 my-4">
       <div className="flex justify-between items-center pb-2">
-        <p className="font-outfit font-bold text-[24px] leading-[33.6px] text-heading">
+        <p className="flex items-center font-outfit font-bold text-[24px] leading-[33.6px] text-heading">
           {props.title}
+          <span className="font-mono text-paragraph text-xs font-medium bg-gray-50 px-2 py-[2.8px] mx-2 rounded-2xl">
+            {props.category}
+          </span>
         </p>
         <p className="font-mono text-paragraph text-base font-medium leading-7 bg-background px-2 py-[2.8px] rounded-sm">
           {props.year}

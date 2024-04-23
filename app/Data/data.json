@@ -3,8 +3,8 @@
         {
             "id": 1,
             "name": "E-निर्वाचन",
-            "category": "Web Development",
-            "description": "Major Project -Biometric Voting System. This project is developed using ReactJs and Django as Server Side and mongodb as database",
+            "category": "Web Development + Biometric",
+            "description": "Major Project -Biometric Voting System. I created entire frontend of this project using typescript and reactjs. I also worked on hardware part of fingerprint and face recognition.",
             "date": "2023",
             "links": {
                 "github": "https://github.com/SulavGaire/e-Nirwachan"
@@ -13,15 +13,36 @@
         },
         {
             "id": 2,
-            "name": "Project 2",
-            "category": "Mobile Development",
-            "description": "This is a description of Project 2.",
-            "date": "2022-02-01",
+            "name": "Weather-prediction",
+            "category": "Machine Learning + Electronics",
+            "description": "Minor Project -High altitude weather detection and prediction using ML and LoRa. Created a Lora based weather station and used Xgboost algorithm to predict weather using time-series data.",
+            "date": "2023",
             "links": {
-                "github": "https://github.com/username/project2",
-                "live": "https://www.project2.com"
+                "github": "https://github.com/SulavGaire/Weather-prediction"
             },
-            "technologies": ["React Native", "Redux"]
+            "technologies": ["Machine Learning", "Xgboost", "Flask", "NodeJs","LoRa", "Arduino"]
+        },
+        {
+            "id": 3,
+            "name": "Sajilo Ambulance",
+            "category": "Machine Learning",
+            "description": "At Gritfeat_AI_Hackathon, I helped create an Uber-like ambulance app. Using machine learning, we analyzed patient vital signs to predict triage, disposition, and length of stay in the emergency ward. It was an exciting debut in machine learning for me.",
+            "date": "2023",
+            "links": {
+                "github": "https://github.com/SulavGaire/Weather-prediction"
+            },
+            "technologies": ["Machine Learning", "Flask", "Feature Engineering", "Random Forest", "Xgboost"]
+        },
+        {
+            "id": 4,
+            "name": "CanSat",
+            "category": "Electronics + Web Development",
+            "description": "At my 6 month internship at orion space, I helped build a dashboard that plots the real time data transmitted by cansat using Nodejs an Chartjs.",
+            "date": "2022",
+            "links": {
+                "github": "https://github.com/SulavGaire/CanSat"
+            },
+            "technologies": ["Arduino", "LoRa", "NodeJs", "ExpressJs", "Dashboard"]
         }
     ],
     
