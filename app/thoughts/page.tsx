@@ -6,12 +6,16 @@ export default function thoughts() {
     <>
     <Profileimage/>
     <div className="mt-8 py-4">
-    <h2 className="font-outfit font-bold text-[32px] text-heading leading-[44.8px] tracking-[-0.5px] mb-4">Thoughts</h2>
+    <h2 className="font-outfit font-bold text-[32px] text-heading leading-[44.8px] tracking-[-0.5px] mb-4">
+      Grab a ☕️ and have a read
+    </h2>
+    
     <div className='border-b-[1px] border-black'></div>
     {data.Thoughts.map((thought, index) => (
-      <div key={thought.id} className="flex flex-row justify-between items-center border-b-[1px] border-black py-4">
-        <p className="font-mono font-medium text-paragraph text-base leading-7">{thought.title}</p>
-        <Link href={thought.link} className='hover:font-bold'>Read →</Link>
+      <div key={thought.id} className="flex flex-row justify-between items-center border-b-[1px] border-black py-4 hover:scale-105 transition-all">
+        <Link href={thought.link}>
+          <p className="font-mono font-medium text-paragraph text-base leading-7 hover:font-bold">{thought.title}</p>
+        </Link>
       </div>
     ))}
     </div>

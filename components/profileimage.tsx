@@ -8,7 +8,7 @@ export default function Profileimage() {
   const width = pathname === "/" ? 175 : 100;
   const height = pathname === "/" ? 175 : 100;
   return (<Link href="/">
-    <div className="mt-16 flex justify-start items-center max-w-xs">
+    <div className="mt-16 flex justify-start items-center max-w-xs hover:scale-105 transition">
       
       <Image
         src="https://media.licdn.com/dms/image/D5603AQGyuaOQlB5mDQ/profile-displayphoto-shrink_800_800/0/1692192268256?e=1719446400&v=beta&t=AggnKT73CsUU1a3KM_P3Vq8VQhXyrLyR2BvkKgFG0O4"

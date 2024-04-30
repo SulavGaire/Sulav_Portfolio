@@ -92,17 +92,16 @@
     "Thoughts":[
         {
             "id":2,
-            "title":"Kuch likha karo",
-            "link":"https://sulavgaire.notion.site/Basics-of-LoRa-1a9e0173dddb449c88e916fc59f5e7f3"
-        },
+            "title":"React Context API: A Hilarious Journey into State Management 🚀",
+            "link":"https://dev.to/sulavgaire/react-context-api-a-hilarious-journey-into-state-management-l6p"   },
         {
             "id":1,
-            "title":"Weather Forecasting using LoRa and Machine Learning at High Altitude",
+            "title":"Weather Forecasting using LoRa and Machine Learning at High Altitude 🌤️,",
             "link":"https://medium.com/@sulavgaire/weather-forecasting-using-lora-and-machine-learning-at-high-altitude-c1c1464c367"
         },
         {
             "id":0,
-            "title":"Basics of LoRa",
+            "title":"Basics of LoRa 📡",
             "link":"https://sulavgaire.notion.site/Basics-of-LoRa-1a9e0173dddb449c88e916fc59f5e7f3"
         }
     ]

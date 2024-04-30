@@ -16,7 +16,7 @@ export default function Footer() {
       <p className="mr-4">© 2024 - Sulav Gaire</p>
         <nav className="flex flex-row">
         {navLinks.map(({href, label},index) => (
-            <div key={index} className="mr-2">
+            <div key={index} className="mr-2 hover:font-semibold">
               <Link
                 className={`link ${pathname === href ? "font-bold" : ""}`}
                 href={href}
