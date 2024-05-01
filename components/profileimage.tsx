@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { Typewriter } from "./typewriter";
 
 export default function Profileimage() {
   const pathname = usePathname();
@@ -17,8 +18,8 @@ export default function Profileimage() {
         height={height}
         className="rounded-full"
       />
-      { pathname === "/" ? null : <h1 className="font-outfit font-bold text-4xl text-heading ml-4 leading-[43.2px] tracking-[-1.5px] whitespace-nowrap">Sulav Gaire</h1>}
-    
+      { pathname === "/" ? null : <h1 className="font-outfit font-bold text-2xl text-heading ml-4 leading-[43.2px] tracking-[-1.5px] whitespace-nowrap">
+      <Typewriter words={["🎓  Learning ", "🌱  Growing" , "⚙️  Grinding "]} /></h1>}
     </div>
     </Link>
   );

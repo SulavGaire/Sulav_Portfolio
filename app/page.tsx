@@ -1,16 +1,14 @@
 import Profileimage from "@/components/profileimage";
+import { Typewriter } from "@/components/typewriter";
 import Link from "next/link";
 
 export default function Home() {
   return (
     <div className="mb-8">
       <Profileimage />
-      <h1 className="font-outfit font-bold text-4xl text-heading leading-[43.2px] tracking-[-1.5px] my-8">
-        <ul>Hey, I&apos;m Sulav Gaire.</ul>
-        <ul>
-          I&apos;m a Electronics & Information Engineer based in Kathmandu,
-          Nepal.
-        </ul>
+      <h1 className="flex flex-row font-outfit font-bold text-2xl text-heading leading-[43.2px] tracking-[-1.5px] my-8">
+        <p className="mr-[6px]">Hey, I&apos;m</p>
+        <Typewriter words={[" Sulav Gaire","an Electronics & Information Engineer","a software developer","an artist"]} />
       </h1>
       <p className="font-mono font-medium text-base text-paragraph leading-7 mb-8">
         Right now, I’ve just completed my bachelor&apos;s from
