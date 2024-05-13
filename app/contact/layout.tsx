@@ -5,10 +5,8 @@ export const metadata: Metadata = {
   description: "Contact me here!",
 };
 
-export default function RootLayout({children}: Readonly<{children: React.ReactNode}>) {
-  return (
-    <div>
-        {children}
-    </div>
-  )
+export default function RootLayout({
+  children,
+}: Readonly<{ children: React.ReactNode }>) {
+  return <div>{children}</div>;
 }

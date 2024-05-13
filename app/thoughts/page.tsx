@@ -10,7 +10,7 @@ export default function thoughts() {
       Grab a ☕️ and have a read
     </h2>
     
-    <div className='border-b-[1px] border-black'></div>
+    <div className='border-b-[1px] border-black '></div>
     {data.Thoughts.map((thought, index) => (
       <div key={thought.id} className="flex flex-row justify-between items-center border-b-[1px] border-black py-4 hover:scale-105 transition-all">
         <Link href={thought.link}>
